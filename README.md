@@ -6,14 +6,14 @@
 	Firstly download the entire repository.
 
 	Then you can run it directly in the family-tree-demo:
-	```
+```
 	java -jar target/lcas-demo-1.0-SNAPSHOT-uber.jar
-	```
+```
 
 	Or you can compile it before running.
-	```
+```
 	mvn clean package
-	```
+```
 
 ## Input format ##
 
