@@ -1,6 +1,6 @@
-# GSoC 2018 Warmup
+# GSoC 2018 Warmup #
 
-## Compile and run
+## Compile and run ##
 
 	To run the demo. 
 	Firstly download the entire repository.
@@ -15,7 +15,7 @@
 	mvn clean package
 	```
 
-## Input format
+## Input format ##
 
 	Every time running it, you need to input .dot file name. Then enter every two names, the program will calculate the closest commom ancestor of two people.
 
