@@ -63,7 +63,6 @@ public class Demo {
         for(int i = 0; i < vectexs.length - 1; i++) {
             for(int j = i + 1; j < vectexs.length; j++) {
                 if(graph.containsEdge(vectexs[i], vectexs[j]) && graph.containsEdge(vectexs[j], vectexs[i])) {
-                    System.out.println(vectexs[i] + ": " + vectexs[j]);
                     graph.removeEdge(vectexs[i], vectexs[j]);
                     graph.removeEdge(vectexs[j], vectexs[i]);
                 }
